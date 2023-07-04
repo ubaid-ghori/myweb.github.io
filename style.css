@@ -1,0 +1,90 @@
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+:root{
+    --bg-color:#081b29;
+    --second-bg--color:#112e42;
+    --text-color:#ededed;
+    --main-color:#00abf0;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+.header{
+    top: 0;
+    left: 0;
+    padding: 1rem 4%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content:space-between;
+}
+.navbar a{
+    margin-top: 20px;
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: 3.5rem;
+    margin-left: 2.5rem;
+    transition: .3s;
+
+   
+}
+.navbar a:hover,
+.navbar a.active
+{
+    color: var(--main-color);
+}
+.navbar{
+    margin-top: 20px;
+    margin-right: 2px;
+    
+}
+button{
+    padding: 10px;
+    border-radius: 23px;
+    background-color:var(--main-color);
+    margin: 0 10px;
+    color: black;
+}
+main{
+    display: flex;
+    width: 100%;
+    margin: 0px 20px;
+}
+.herotext{
+    width: 50%;
+    margin: 15vh 10px;
+}
+h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+h5{
+    color: #00abf0;
+    font-size: 18px;
+
+}p{
+    padding: 5px 5px;
+    margin-top: 15px;
+}
+.hireme{
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+}
+.heroimg{
+    
+    margin-left: 10%;
+    height: 400px;
+}
